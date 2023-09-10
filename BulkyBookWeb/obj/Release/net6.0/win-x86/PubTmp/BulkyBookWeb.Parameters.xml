@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="BulkyBookWeb43" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Projects\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6\.0\\win-x86\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="BulkyBookWeb.Data.ApllicationDbContext" description="" value="Server=tcp:dotnetmastery79.database.windows.net,1433;Initial Catalog=Dotnetmastery_db;Persist Security Info=False;User ID=dotnetmastery_db;Password=Nord@8876;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Projects\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6\.0\\win-x86\\PubTmp\\EFSQLScripts\\BulkyBookWeb\.Data\.ApllicationDbContext\.sql$" />
+  </parameter>
+</parameters>
